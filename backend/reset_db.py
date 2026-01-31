@@ -3,8 +3,10 @@ import os
 
 def reset_db():
     print("Resetting database...")
-    # MongoDB Atlas URI from .env
-    uri = "mongodb+srv://masterharsh179_db_user:KftxBVrVFUyDZ4ut@cluster0.j046jbf.mongodb.net/self_healing_agent?retryWrites=true&w=majority&appName=Cluster0"
+    # Load URI from config
+    from config import get_settings
+    settings = get_settings()
+    uri = settings.mongodb_uri
     
     try:
         client = MongoClient(uri)
