@@ -14,7 +14,7 @@ export interface ChaosState {
 // Global chaos state - In real app would be in Redis/DB
 let chaosState: ChaosState = {
     checkout_fails: false,
-    api_errors: true,
+    api_errors: false,
     webhook_drops: false,
     migration_mode: false,
     slow_mode: false,
