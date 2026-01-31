@@ -1,0 +1,747 @@
+INFO:     Will watch for changes in these directories: ['/Users/harshtandel27/Desktop/mycode/self-healing-agent/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [83520] using StatReload
+INFO:     Started server process [83590]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ Groq API initialized with model: llama-3.3-70b-versatile
+✅ Connected to MongoDB: self_healing_agent
+🤖 Self-Healing Agent started
+INFO:     127.0.0.1:53727 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53727 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53727 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53727 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53727 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53727 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53727 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53727 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53727 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53727 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53727 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53727 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53787 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53787 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53787 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53787 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53787 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53787 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53789 - "GET /api/workflows HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /api/workflows HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 53802) - "WebSocket /ws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:53791 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53797 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53797 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53798 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53797 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53797 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53797 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53797 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53797 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53797 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53797 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53798 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53797 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53798 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53797 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53797 - "POST /api/workflows/697e4770f3bdf6e5820ddeec/approve HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+📢 Notification: Migration issue detected: Checkout Failure Due to Gateway Timeout
+🔍 Running diagnostic: migration_state
+INFO:     127.0.0.1:53797 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53798 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+📧 Merchant notification: unknown
+🚨 Escalation to engineering: platform-migration
+🛑 Stopping backend scenario: api_degradation
+INFO:     127.0.0.1:53812 - "POST /scenarios/stop/api_degradation HTTP/1.1" 200 OK
+✅ Backend scenario api_degradation stopped
+🔧 FIXED: Disabled chaos mode 'api_errors' in store
+🔍 Running diagnostic: store_health
+INFO:     127.0.0.1:53797 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53806 - "POST /api/workflows/697e476ff3bdf6e5820ddee8/approve HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53806 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53798 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53798 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53806 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53798 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53798 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53798 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53798 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53798 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53798 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53798 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     127.0.0.1:53798 - "GET /api/issues HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53806 - "GET /api/issues HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53806 - "GET /api/issues/697e4776f3bdf6e5820ddeee HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53806 - "GET /api/issues/697e4776f3bdf6e5820ddeee HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53821 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53821 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53821 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53821 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53821 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53821 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53821 - "GET /api/workflows HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53821 - "GET /api/workflows HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53821 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53830 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53833 - "GET /api/workflows HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53833 - "GET /api/workflows HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53833 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53833 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53833 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53833 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53833 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53833 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53838 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53838 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53838 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53838 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53838 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53838 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53838 - "POST /api/workflows/697e476cf3bdf6e5820ddee0/approve HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53838 - "GET /api/workflows HTTP/1.1" 200 OK
+📢 Notification: Migration issue detected: Checkout Failure Due to Shipping Error
+🔍 Running diagnostic: migration_state
+📧 Merchant notification: unknown
+🚨 Escalation to engineering: platform-migration
+🛑 Stopping backend scenario: api_degradation
+INFO:     127.0.0.1:53840 - "POST /scenarios/stop/api_degradation HTTP/1.1" 200 OK
+✅ Backend scenario api_degradation stopped
+🔧 FIXED: Disabled chaos mode 'api_errors' in store
+🔍 Running diagnostic: store_health
+INFO:     127.0.0.1:53843 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53843 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53843 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53843 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53843 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53843 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53843 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53843 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53843 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53849 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53849 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53849 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53849 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53849 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53849 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53849 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53852 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53852 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53852 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53852 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53852 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53852 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53852 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53852 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53858 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53858 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53858 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53858 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53858 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53858 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53858 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53858 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53860 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53860 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53860 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53860 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53860 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53860 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53860 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53862 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53862 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53862 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53862 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53862 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53862 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53862 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53862 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53862 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53862 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53862 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53862 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53862 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53862 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53862 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53862 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53862 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53862 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53862 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53862 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53862 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53862 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53866 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53866 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53866 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53866 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53866 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53866 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53866 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53866 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53868 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53868 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53868 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53868 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53868 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53868 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53868 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53872 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53872 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53872 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53872 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53872 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53872 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53872 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53872 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53878 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53878 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53878 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53878 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53878 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53878 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53878 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53878 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53883 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53883 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53883 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53883 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53883 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53883 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53883 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53885 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53885 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53885 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53885 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53885 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53885 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53885 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53885 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53888 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53888 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53888 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53888 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53888 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53888 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53888 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53888 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53890 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53890 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53890 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53890 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53890 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53890 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53890 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53892 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53892 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53892 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53892 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53892 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53892 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53892 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53892 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53896 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53896 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53896 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53896 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53896 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53896 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53896 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53896 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53898 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53898 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53898 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53898 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53898 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53898 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53898 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53900 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'reset_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [83590]
+🛑 Self-Healing Agent stopped
+🔌 MongoDB connection closed
+INFO:     Started server process [84264]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ Groq API initialized with model: llama-3.3-70b-versatile
+✅ Connected to MongoDB: self_healing_agent
+🤖 Self-Healing Agent started
+INFO:     127.0.0.1:53912 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /api/workflows/697e4776f3bdf6e5820ddef0 HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 53941) - "WebSocket /ws" [accepted]
+INFO:     connection closed
+INFO:     ('127.0.0.1', 53943) - "WebSocket /ws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:53938 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53947 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     127.0.0.1:53938 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 53951) - "WebSocket /ws" [accepted]
+INFO:     127.0.0.1:53938 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     127.0.0.1:53954 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53954 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 53956) - "WebSocket /ws" [accepted]
+INFO:     127.0.0.1:53954 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     connection open
+INFO:     127.0.0.1:53954 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53947 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53954 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53947 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53947 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     127.0.0.1:53912 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 53960) - "WebSocket /ws" [accepted]
+INFO:     127.0.0.1:53912 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     127.0.0.1:53954 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53954 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 53963) - "WebSocket /ws" [accepted]
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53954 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     connection open
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53954 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53947 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53954 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53912 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53969 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53985 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53985 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53985 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53985 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53985 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53979 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53988 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53985 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54066 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54066 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54066 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54067 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54066 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54066 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54066 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54069 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54063 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'reset_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     connection closed
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [84264]
+🛑 Self-Healing Agent stopped
+🔌 MongoDB connection closed
+INFO:     Started server process [85034]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ Groq API initialized with model: llama-3.3-70b-versatile
+✅ Connected to MongoDB: self_healing_agent
+🤖 Self-Healing Agent started
+INFO:     127.0.0.1:54112 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54112 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54112 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54112 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54112 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54114 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54112 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54113 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54110 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54110 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54110 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 54126) - "WebSocket /ws" [accepted]
+INFO:     connection closed
+INFO:     ('127.0.0.1', 54129) - "WebSocket /ws" [accepted]
+INFO:     127.0.0.1:54130 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     connection open
+INFO:     127.0.0.1:54130 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54110 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54114 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54112 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54130 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54110 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54110 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54130 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54114 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54112 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54114 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54110 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54110 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54113 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54113 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54135 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54136 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54133 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54133 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54133 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54133 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54133 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54133 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54133 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54135 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54136 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54133 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54142 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54143 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54141 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54141 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54141 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54141 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54141 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54141 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54141 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54143 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54142 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54141 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54141 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54141 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54141 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54141 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54149 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54148 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54141 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54141 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54146 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54154 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54155 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54153 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54153 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54153 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54153 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54153 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54153 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54153 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54154 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54155 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54153 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54161 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54162 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54158 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54158 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54158 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54158 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54158 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54158 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54158 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54162 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54161 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54158 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54165 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54165 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54165 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54165 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54165 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54165 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54170 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54169 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54167 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54174 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54176 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54172 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54172 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54172 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54172 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54172 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54172 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54172 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54174 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54176 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54172 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54184 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54183 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54182 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54182 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54182 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54182 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54182 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54182 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54182 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54183 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54184 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54182 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54188 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54188 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54188 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54194 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54193 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54188 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54188 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54188 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54191 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54198 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54200 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54197 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54197 - "GET /scenarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54197 - "GET /scenarios/status/migration_chaos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54197 - "GET /scenarios/status/checkout_storm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54197 - "GET /scenarios/status/webhook_cascade HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54197 - "GET /scenarios/status/api_degradation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54197 - "GET /scenarios/status/config_drift HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54200 - "GET /api/issues?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54198 - "GET /api/workflows/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54197 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     connection closed
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [85034]
+🛑 Self-Healing Agent stopped
+🔌 MongoDB connection closed
+INFO:     Stopping reloader process [83520]
