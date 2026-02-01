@@ -353,6 +353,28 @@ async def websocket_endpoint(websocket: WebSocket):
         agent.unregister_websocket(websocket)
 
 
+# ============ Database Reset ============
+
+@app.post("/api/reset-db")
+async def reset_database():
+    """Clear all collections in the database."""
+    from database import get_signals_collection, get_issues_collection, get_workflows_collection, get_audit_logs_collection
+    
+    collections = [
+        get_signals_collection(),
+        get_issues_collection(),
+        get_workflows_collection(),
+        get_audit_logs_collection(),
+    ]
+    
+    deleted_count = 0
+    for col in collections:
+        result = await col.delete_many({})
+        deleted_count += result.deleted_count
+    
+    return {"status": "success", "message": f"Database reset. Deleted {deleted_count} documents."}
+
+
 # ============ Run Server ============
 
 if __name__ == "__main__":
